@@ -16,11 +16,11 @@ See [Barcode Formats](https://zxing.github.io/zxing/apidocs/com/google/zxing/Bar
 
 ### Examples
 
-- bcode://generate?type=QR_CODE&data=google.com
+- `bcode://generate?type=QR_CODE&data=google.com`
 
 ![qrcode](https://github.com/nikialeksey/bcodegenerator/blob/master/screens/qrcode.png)
 
-- bcode://generate?type=EAN_13&data=9785913395511
+- `bcode://generate?type=EAN_13&data=9785913395511`
 
 ![ean13](https://github.com/nikialeksey/bcodegenerator/blob/master/screens/ean13.png)
 
