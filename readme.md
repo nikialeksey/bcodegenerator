@@ -2,7 +2,9 @@
 Android barcode generator through adb for testing purposes
 
 ### Build
+```shell
 gradlew clean assemblyRelease
+```
 
 ### Generate barcode
 ```shell
