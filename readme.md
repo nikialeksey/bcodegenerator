@@ -14,5 +14,15 @@ adb shell am start -a android.intent.action.VIEW -c android.intent.category.BROW
 ### Barcode types
 See [Barcode Formats](https://zxing.github.io/zxing/apidocs/com/google/zxing/BarcodeFormat.html) from Zxing
 
+### Examples
+
+- bcode://generate?type=QR_CODE&data=google.com
+
+![qrcode]()
+
+- bcode://generate?type=EAN_13&data=9785913395511
+
+![ean13]()
+
 ---
 Thanks to [Android-Barcode](https://github.com/BottleRocketStudios/Android-Barcode)!
