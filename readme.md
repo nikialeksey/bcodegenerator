@@ -18,11 +18,11 @@ See [Barcode Formats](https://zxing.github.io/zxing/apidocs/com/google/zxing/Bar
 
 - bcode://generate?type=QR_CODE&data=google.com
 
-![qrcode]()
+![qrcode](https://github.com/nikialeksey/bcodegenerator/blob/master/screens/qrcode.png)
 
 - bcode://generate?type=EAN_13&data=9785913395511
 
-![ean13]()
+![ean13](https://github.com/nikialeksey/bcodegenerator/blob/master/screens/ean13.png)
 
 ---
 Thanks to [Android-Barcode](https://github.com/BottleRocketStudios/Android-Barcode)!
