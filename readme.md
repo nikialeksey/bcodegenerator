@@ -5,7 +5,9 @@ Android barcode generator through adb for testing purposes
 gradlew clean assemblyRelease
 
 ### Generate barcode
+```shell
 adb shell am start -a android.intent.action.VIEW -c android.intent.category.BROWSABLE -d "bcode://generate?type=QR_CODE&data=google.com"
+```
 
 ### Barcode types
 See [Barcode Formats](https://zxing.github.io/zxing/apidocs/com/google/zxing/BarcodeFormat.html) from Zxing
